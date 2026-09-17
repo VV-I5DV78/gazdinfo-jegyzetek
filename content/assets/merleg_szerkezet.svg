@@ -1,0 +1,37 @@
+<!-- 3. KÉP: merleg_szerkezet.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420" width="100%" height="100%">
+  <rect width="700" height="420" fill="#f8f9fa" rx="10"/>
+  <text x="350" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2c3e50">A Mérleg Szerkezete (Eszközök vs. Források)</text>
+
+  <!-- ESZKÖZÖK (Bal oldal) -->
+  <rect x="40" y="60" width="300" height="320" fill="#ffffff" stroke="#0984e3" stroke-width="2" rx="5"/>
+  <rect x="40" y="60" width="300" height="40" fill="#0984e3" rx="4"/>
+  <text x="190" y="85" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">ESZKÖZÖK (Aktívák / Mim van?)</text>
+
+  <text x="60" y="130" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2d3436">Befektetett eszközök</text>
+  <text x="80" y="155" font-family="Arial, sans-serif" font-size="13" fill="#636e72">• Immateriális javak</text>
+  <text x="80" y="180" font-family="Arial, sans-serif" font-size="13" fill="#636e72">• Tárgyi eszközök</text>
+  <text x="80" y="205" font-family="Arial, sans-serif" font-size="13" fill="#636e72">• Befektetett pénzügyi eszközök</text>
+
+  <text x="60" y="245" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2d3436">Forgóeszközök</text>
+  <text x="80" y="270" font-family="Arial, sans-serif" font-size="13" fill="#636e72">• Készletek</text>
+  <text x="80" y="295" font-family="Arial, sans-serif" font-size="13" fill="#636e72">• Követelések</text>
+  <text x="80" y="320" font-family="Arial, sans-serif" font-size="13" fill="#636e72">• Pénzeszközök és egyenértékesek</text>
+
+  <!-- FORRÁSOK (Jobb oldal) -->
+  <rect x="360" y="60" width="300" height="320" fill="#ffffff" stroke="#e17055" stroke-width="2" rx="5"/>
+  <rect x="360" y="60" width="300" height="40" fill="#e17055" rx="4"/>
+  <text x="510" y="85" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">FORRÁSOK (Passzívák / Miből van?)</text>
+
+  <text x="380" y="130" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2d3436">Saját tőke (Reziduum)</text>
+  <text x="400" y="155" font-family="Arial, sans-serif" font-size="13" fill="#636e72">• Jegyzett tőke</text>
+  <text x="400" y="180" font-family="Arial, sans-serif" font-size="13" fill="#636e72">• Tartalékok (Eredmény)</text>
+
+  <text x="380" y="235" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2d3436">Kötelezettségek (Idegen tőke)</text>
+  <text x="400" y="260" font-family="Arial, sans-serif" font-size="13" fill="#636e72">• Hosszú lejáratú kötelezettségek</text>
+  <text x="400" y="285" font-family="Arial, sans-serif" font-size="13" fill="#636e72">• Rövid lejáratú kötelezettségek</text>
+
+  <!-- Mérlegegyezőség alsó sáv -->
+  <rect x="40" y="390" width="620" height="20" fill="#2d3436" rx="3"/>
+  <text x="350" y="405" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">MÉRLEGEGYEZŐSÉG: Összes Eszköz = Összes Forrás (Saját tőke + Kötelezettségek)</text>
+</svg>
